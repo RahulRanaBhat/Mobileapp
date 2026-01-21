@@ -5,6 +5,7 @@ let nBefore = ""; //前回の変数nの値
 
 window.addEventListener("DOMContentLoaded",
     function() {
+        console.log("Hello!!");
 
         $("header").textillate({
             loop: false, 
@@ -42,7 +43,6 @@ btn1.addEventListener("click",
             n =Math.floor(Math.random() * resultText.length);
         }
         nBefore = n; //nの値をsave
-
         let resultMaxSpeed=[5,5,1,1,1,5];
         let resultMaxSize=[30,30,40,60,35,20];
         let resultMinSize=[1,1,20,50,25,1];
