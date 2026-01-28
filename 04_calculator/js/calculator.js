@@ -41,4 +41,5 @@ function calculate(num1, num2, calcType) {
 }
 function clear() {
     elementResult.innerHTML = "";
+
 }
